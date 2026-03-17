@@ -3,10 +3,14 @@
     "source.fixAll": "explicit",
     "source.organizeImports": "explicit",
     "source.sortMembers": "explicit"
+<<<<<<< HEAD
   },
   "files.associations": {
     "*.tsx": "typescriptreact",
     "*.ts": "typescript"
   },
   "js/ts.tsdk.path": "./node_modules/typescript/lib"
+=======
+  }
+>>>>>>> 9a17eb93d772c52e3bc5299cf53d02cc0092b8a8
 }

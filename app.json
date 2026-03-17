@@ -1,11 +1,20 @@
 {
   "expo": {
+<<<<<<< HEAD
     "name": "StickerSmash",
     "slug": "StickerSmash",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "stickersmash",
+=======
+    "name": "my-app",
+    "slug": "my-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "myapp",
+>>>>>>> 9a17eb93d772c52e3bc5299cf53d02cc0092b8a8
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {

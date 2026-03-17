@@ -2,6 +2,7 @@ import { StyleSheet, Text, View } from "react-native";
 
 const styles = StyleSheet.create({
   container: {
+<<<<<<< HEAD
     flex: 1, // 讓容器撐滿整個手機螢幕
     // backgroundColor: '#F7F7F7',
     justifyContent: "center",
@@ -39,3 +40,26 @@ const FlexExample = () => {
   );
 };
 export default FlexExample;
+=======
+    flex: 1,
+    justifyContent: "center",
+    alignItems: "center",
+    padding: 20,
+  },
+  title: {
+    fontSize: 24,
+    fontWeight: "bold",
+    marginBottom: 10,
+  },
+});
+
+export default function Index() {
+  return (
+    <View
+      style={styles.container}
+    >
+      <Text style={styles.title}>Hello World</Text>
+    </View>
+  );
+}
+>>>>>>> 9a17eb93d772c52e3bc5299cf53d02cc0092b8a8

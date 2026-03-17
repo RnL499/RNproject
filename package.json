@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "stickersmash",
+=======
+  "name": "my-app",
+>>>>>>> 9a17eb93d772c52e3bc5299cf53d02cc0092b8a8
   "main": "expo-router/entry",
   "version": "1.0.0",
   "scripts": {
