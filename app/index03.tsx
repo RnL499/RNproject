@@ -1,6 +1,7 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { Text, TextInput, View } from "react-native";
 
+//狀態, State
 export default function Index() {
   const [name, setName] = useState("");
   return (

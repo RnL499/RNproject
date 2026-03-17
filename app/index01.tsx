@@ -4,7 +4,7 @@ type StudentInfoProps = {
   stdname: string;
   id: string;
 };
-
+//自訂標籤
 const StudentInfo = ({ stdname, id }: StudentInfoProps) => {
   return (
     <View>
@@ -32,7 +32,7 @@ export default function Index() {
         source={{
           uri: "https://images.unsplash.com/photo-1773061865077-12120d59a217?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         }}
-        style={{ width: "100%", height: "40%" }}
+        style={{ width: "80%", height: "40%" }}
         // resizeMode 可選值：
         // "cover"   - 等比縮放填滿容器，超出部分裁切（預設值）
         // "contain" - 等比縮放，完整顯示在容器內，可能有留白

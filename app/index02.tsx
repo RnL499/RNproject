@@ -1,11 +1,11 @@
-import { Text, View, StyleSheet } from "react-native";
+import { StyleSheet, Text, View } from "react-native";
 
 // Union type 限制 size props 只能是這三個值
 type ButtonSize = "small" | "medium" | "large";
 
 // Union type 限制 variant props 只能是這三個值
 type ButtonVariant = "primary" | "secondary" | "danger";
-
+// ButtonSize, ButtonVariant被限制, 陣列
 type ButtonProps = {
   label: string;
   size: ButtonSize;

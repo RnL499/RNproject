@@ -26,13 +26,13 @@ const FlexExample = () => {
   // 父容器：佔滿全螢幕，並讓子元件在垂直主軸上置中
   return (
     <View style={styles.container}>
-      <View style={[styles.box, { backgroundColor: "#FF6B6B", flex: 1 }]}>
+      <View style={[styles.box, { backgroundColor: "#fc8383", flex: 1 }]}>
         <Text style={styles.text}>Flex: 1</Text>
       </View>
-      <View style={[styles.box, { backgroundColor: "#4ECDC4", flex: 2 }]}>
+      <View style={[styles.box, { backgroundColor: "#2bcfc4", flex: 2 }]}>
         <Text style={styles.text}>Flex: 2</Text>
       </View>
-      <View style={[styles.box, { backgroundColor: "#45B7D1", flex: 3 }]}>
+      <View style={[styles.box, { backgroundColor: "#2d373a", flex: 3 }]}>
         <Text style={styles.text}>Flex: 3</Text>
       </View>
     </View>
